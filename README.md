@@ -20,19 +20,22 @@ First, make sure FLASK is installed on the system:
 Then, to run the project:-
 
 ***For Windows Command Prompt:***
-
-    `cd Route-Visualizer/src`
-    `set FLASK_APP=api`
-    `flask run`
+```
+    cd Route-Visualizer/src
+    set FLASK_APP=api
+    flask run
+```
 
 ***For Windows PowerShell:***
+```
+    cd Route-Visualizer/src
+    $env:FLASK_APP = "api"
+    flask run
+```
 
-    `cd Route-Visualizer/src`
-    `$env:FLASK_APP = "api"`
-    `flask run`
- 
 ***For Linux / Mac Terminal:***
- 
-    `cd Route-Visualizer/src`
-    `export FLASK_APP=api`
-    `flask run`
+```
+    cd Route-Visualizer/src
+    export FLASK_APP=api
+    flask run
+```
